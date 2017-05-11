@@ -29,7 +29,10 @@ The connection to the server master:8443 was refused - did you specify the right
 Ans:
 
 ```sh
-Check if you origin-master process if working  
+1) Check if you origin-master process is working  `systemctl status origin-master` or `systemctl status atomic-openshift-master` 
+2) Check if you have opened firewall rules to allow 8443 / 443 based on your install to hosts which are running your masters
+3) Check if your dns resoulutions are working fine from your install host to master and also in between hosts. 
+
 ```
 ## Architecture
 
