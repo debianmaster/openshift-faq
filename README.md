@@ -39,3 +39,7 @@ Ans:
 ## Storage
 
 ## Networking
+
+## Dev
+1. is it possible to enable maven debugging in openshift. ?    
+   yes `MAVEN_ARGS_APPEND`  env var
